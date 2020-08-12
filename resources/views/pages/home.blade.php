@@ -6,7 +6,7 @@ Maleo
 
 @section('content')
 
-<section class="hero mt-10">
+<section class="hero mt-5">
     <div class="container">
         <!-- Header -->
         <div class="row">
@@ -24,13 +24,34 @@ Maleo
                 </button>
             </div>
             <div class="col d-none d-sm-block">
-                <img width="550" src="{{ url('frontend/images/hero-icon-3.png')}}" alt="">
+                <img width="540" src="{{ url('frontend/images/hero-icon-3.png')}}" alt="">
             </div>
         </div>
-
     <main>
 
-
+        <section id="onlineport" class="mal-tools border-top mt-7">
+            <div class="container mt-5">
+            <div class="row justify-content-center">
+            <div class="col-lg-12 col-11 d-flex justify-content-start">
+            <div class="row main-title justify-content-center">
+            <div class="col-lg-12 col-12 d-flex align-items-center">
+            <div>
+            <h1 class="text-merriweather mb-3 text-indigo-3">Persiapan Kerja <br/>Jadi Lebih Optimal</h1>
+            <p class="font-weight-light text-indigo-3">Dengan Fitur Online Report<br>antar berkas tanpa takut telat</p>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-8">
+            </div>
+            <div class="col d-none d-sm-block">
+                <img width="320" src="{{ url('frontend/images/hero-icon-2.png')}}" alt="">
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </section>
         <section class="section-testimonial-heading" id="testimonialHeading">
             <div class="container">
                 <div class="row">

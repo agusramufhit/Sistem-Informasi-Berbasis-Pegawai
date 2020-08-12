@@ -30,36 +30,37 @@
                 <div class="card-block">
                     <form action="{{ route('data.index', $data->id)}}" method="post">
                         <div class="form-group">
-                            <label class="col-md-12">Full Name</label>
+                            <label class="col-md-12"><b>Full Name</b></label>
                             <div class="col-md-12">
                                 <th class="border-box">Agus Ramufhit </th>
                                 <hr/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-12">Email</label>
+                            <label class="col-md-12"><b>Email</b></label>
                             <div class="col-md-12">
                                 <th class="border-box">agusramufhit50@gmail.com</th>
                                 <hr/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-12">No Phone</label>
+                            <label class="col-md-12"><b>No Phone</b></label>
                             <div class="col-md-12">
                                 <th class="border-box">081275079272</th>
                                 <hr/>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-md-12">Pesan</label>
+                            <label class="col-md-12"><b>Pesan</b></label>
                             <div class="col-md-12">
                                 <textarea rows="5" class="form-control form-control-line">Ini adalah Halaman Profil Saya</textarea>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="col-sm-12">Negara</label>
+                            <label class="col-sm-12"><b>Negara</b></label>
                             <div class="col-sm-12">
                                 <th class="border-box">Indonesia</th>
+                                <hr/>
                             </div>
                         </div>
                     </form>
@@ -75,6 +76,5 @@
         </tr>
     @endforelse
     </div>
-@include('sweetalert::alert')
   <!-- /.container-fluid -->
 @endsection

@@ -5,10 +5,25 @@ body {
 }
 
 .row {
-  padding: 10px 20px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mb-4 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.text-center {
+  margin-top: 50px;
+}
+
+.text-home {
+  margin-top: -50px;
 }
 .navbar-brand img {
   max-height: 40px;
+}
+.navbar-expand-lg {
+  border-bottom-left-radius: 50px;
 }
 
 .btn-navbar-right {
@@ -69,27 +84,6 @@ header .btn-get-started:hover {
   color: #fff;
 }
 
-.section-stats {
-  margin-top: 20px;
-  margin-bottom: -50px;
-}
-
-.section-stats .stats-detail {
-  padding-top: 15px;
-  background-color: #5398ff;
-  padding-left: 40px;
-}
-
-.section-stats h2 {
-  font-size: 30px;
-  margin-bottom: 0;
-}
-
-.section-stats p {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
 .section-testimonial-heading {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#F7F9FF));
   background: linear-gradient(rgb(206, 206, 206) 0%, #F7F9FF 100%);
@@ -105,6 +99,7 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-heading p {
+  font-family: 'Nunito', sans-serif;
   font-size: 18px;
 }
 
@@ -124,6 +119,12 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-content .card-testimonial h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+.section-testimonial-content .card-testimonial p {
+  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
 }
 
@@ -529,3 +530,7 @@ form label {
 .form-bordered .form-group {
   border-bottom: 1px solid rgba(120, 130, 140, 0.13);
   padding-bottom: 20px; }
+
+.mal-tools {
+  margin-top: 150px;
+}

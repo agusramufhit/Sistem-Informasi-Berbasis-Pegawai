@@ -100,9 +100,10 @@ $('#refresh').click(function () {
                             data: 'action',
                             name: 'action'
                         },
+                        
                     ],
-        columnDefs: [
-        {   "targets": [0],
+        columnDefs: [{    
+            "targets": [0],
             "visible": false,
             "searchable": false
         }],

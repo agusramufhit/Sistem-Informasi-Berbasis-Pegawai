@@ -15,13 +15,11 @@
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
         </li>
-
         <li class="nav-item">
             <a class="nav-link" href="{{ route('pegawai.index')}}">
               <i class="fas fa-database"></i>
               <span>Data Pegawai</span></a>
           </li>
-
         <li class="nav-item">
             <a class="nav-link" href="{{ route('data.index')}}">
               <i class="fas fa-address-card"></i>

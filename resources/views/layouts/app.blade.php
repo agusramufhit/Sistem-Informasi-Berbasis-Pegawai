@@ -16,6 +16,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -39,10 +40,10 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active align-self-center">
-                            <a class="nav-link" href="#">Product <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item align-self-center">
-                            <a class="nav-link" href="#">Customers</a>
+                            <a class="nav-link" href="#onlineport">Online Report</a>
                         </li>
                         <li class="nav-item align-self-center">
                             <a class="nav-link" href="#">Pricing</a>
