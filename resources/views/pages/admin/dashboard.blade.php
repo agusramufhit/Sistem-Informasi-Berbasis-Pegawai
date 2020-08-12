@@ -3,7 +3,7 @@
 
 @section('content')
     <!-- Begin Page Content -->
-<div class="container-fluid">
+<div class="container">
 
     <!-- Page Heading -->
     <div class="progress-notice alert alert-basic mb-5">

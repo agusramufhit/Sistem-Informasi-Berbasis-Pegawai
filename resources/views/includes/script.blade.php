@@ -19,6 +19,8 @@
 <script src="{{ url('backend/vendor/jquery/buttons.print.min.js')}}"></script>
 <script src="{{ url('backend/vendor/datepicker/bootstrap-datepicker.js')}}"></script>
 <script src="{{ url('backend/vendor/jquery/jquery.validate.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.js"
+        integrity="sha256-siqh9650JHbYFKyZeTEAhq+3jvkFCG8Iz+MHdr9eKrw=" crossorigin="anonymous"></script>
 
 
 <!-- JavaScript -->
