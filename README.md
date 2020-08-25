@@ -1,4 +1,4 @@
-<a href="https://drive.google.com/file/d/1ildZjBXeySdj0W0K4RQkumNkK8VhoqEZ/view?usp=sharing">Link Database</a><br/>
+<https://drive.google.com/file/d/1ildZjBXeySdj0W0K4RQkumNkK8VhoqEZ/view?usp=sharing">Link Database</a><br/>
 
 User DEMO: agusramufhit50@gmail.com
 pass: gagagaga5000000
